@@ -1,4 +1,4 @@
-# ECG_SSL_LFBT
+# ECG_SSL_LCD
 
 # Introduction
 Code implementation of **Lead Correlation and Decorrelation (LCD)**, a new self-supervised learning (SSL) method for multilead electrocardiograms (ECGs).
@@ -69,7 +69,7 @@ usage: run_lp.py [-h] --data-dir DIR --checkpoint DIR --num-classes N
 
 - data-dir, checkpoint, num-classes are required.
 ```bash
-python run_lp.py --data-dir down_data_dir --checkpoint checkpoint_file --num-classes N
+python run_lp.py --data-dir down_data_dir --checkpoint checkpoint_file.pth --num-classes N
 ```
 # Fine-Tuning
 
@@ -82,7 +82,7 @@ usage: run_ft.py [-h] --data-dir DIR --checkpoint DIR --num-classes N
 
 - data-dir, checkpoint, num-classes are required.
 ```bash
-python run_ft.py --data-dir down_data_dir --checkpoint checkpoint_file --num-classes N
+python run_ft.py --data-dir down_data_dir --checkpoint checkpoint_file.pth --num-classes N
 ```
 
 
