@@ -3,9 +3,7 @@
 # Introduction
 Code implementation of **Lead Correlation and Decorrelation (LCD)**, a new self-supervised learning (SSL) method for multilead electrocardiograms (ECGs).
 
-W. Liu, S. Pan, S. Chang, Q. Huang, N. Jiang, A Self-Supervised Learning Method for Electrocardiogram Classification Based on Lead Correlation and Decorrelation, 2024.
-
-The manuscript is Under Review.
+W. Liu, S. Pan, S. Chang, Q. Huang, N. Jiang, A Self-Supervised Learning Method for Electrocardiogram Classification Based on Lead Correlation and Decorrelation, _Applied Soft Computing_, 2025, 172: 112871.
 
 # Requirements
 ```
